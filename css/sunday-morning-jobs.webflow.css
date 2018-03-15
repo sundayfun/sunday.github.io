@@ -253,7 +253,8 @@
 
 .body {
   overflow: visible;
-  background-color: #fff;
+  background-image: -webkit-repeating-linear-gradient(90deg, #fafafa 45%, #fff 55%);
+  background-image: repeating-linear-gradient(0deg, #fafafa 45%, #fff 55%);
 }
 
 .container-3 {
@@ -510,6 +511,7 @@
   display: block;
   width: 100%;
   margin: 0% auto auto;
+  background-color: #fff;
   text-align: center;
 }
 
@@ -898,6 +900,7 @@
   display: block;
   overflow: hidden;
   width: 100%;
+  background-color: #fff;
 }
 
 .slider-2 {
@@ -1586,8 +1589,7 @@
   margin-top: 20px;
   background-image: url('../images/sundaymorning.png');
   background-position: 50% 50%;
-  background-size: contain;
-  background-repeat: repeat;
+  background-size: cover;
 }
 
 .div-block-81 {
@@ -1949,6 +1951,17 @@
   text-decoration: none;
 }
 
+.div-block-101 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  width: 100%;
+  height: 200px;
+  margin-top: -121px;
+  background-color: #fff;
+}
+
 html.w-mod-js *[data-ix="header-load"] {
   display: block;
   opacity: 0;
@@ -1996,7 +2009,7 @@ html.w-mod-js *[data-ix="open-position-page"] {
     margin-top: 20px;
     margin-right: auto;
     margin-left: auto;
-    color: rgba(0, 0, 0, .5);
+    color: #000;
     text-align: justify;
     letter-spacing: 2px;
   }
@@ -2214,6 +2227,9 @@ html.w-mod-js *[data-ix="open-position-page"] {
     top: 0px;
     right: 0px;
     background-color: #fff;
+  }
+  .div-block-81 {
+    color: #000;
   }
   .text-block-13-copy {
     height: 70px;
