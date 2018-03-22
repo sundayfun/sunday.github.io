@@ -1932,6 +1932,7 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  margin-top: 10px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -1960,6 +1961,14 @@
   height: 200px;
   margin-top: -121px;
   background-color: #fff;
+}
+
+.text-block-102 {
+  width: 534px;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
 }
 
 html.w-mod-js *[data-ix="header-load"] {
