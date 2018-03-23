@@ -1964,7 +1964,7 @@
 }
 
 .text-block-102 {
-  width: 534px;
+  width: auto;
   margin-top: 0px;
   margin-right: auto;
   margin-left: auto;
@@ -2358,7 +2358,6 @@ html.w-mod-js *[data-ix="open-position-page"] {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    color: #0863a0;
     font-size: auto;
     line-height: 56px;
   }
