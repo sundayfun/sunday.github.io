@@ -1971,6 +1971,12 @@
   text-align: center;
 }
 
+.text-block-103 {
+  margin-top: 10px;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
 html.w-mod-js *[data-ix="header-load"] {
   display: block;
   opacity: 0;
@@ -3943,6 +3949,7 @@ html.w-mod-js *[data-ix="open-position-page"] {
     height: 30px;
   }
   .div-block-95 {
+    overflow: hidden;
     background-color: #fafafa;
   }
   .div-block-96 {
@@ -4006,5 +4013,13 @@ html.w-mod-js *[data-ix="open-position-page"] {
   .text-block-102 {
     width: auto;
     color: #000;
+  }
+  .text-block-103 {
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+    color: #000;
+    font-size: 14px;
+    line-height: 24px;
   }
 }
