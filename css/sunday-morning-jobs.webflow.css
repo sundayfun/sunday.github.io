@@ -2139,6 +2139,10 @@
   margin-bottom: auto;
 }
 
+.link-block-12 {
+  line-height: auto;
+}
+
 html.w-mod-js *[data-ix="header-load"] {
   display: block;
   opacity: 0;
@@ -4250,9 +4254,16 @@ html.w-mod-js *[data-ix="open-position-page"] {
     margin-right: 5px;
     margin-left: 5px;
   }
+  .div-block-105 {
+    margin-bottom: 40px;
+  }
   .image-10 {
     width: 280px;
     margin-bottom: auto;
+  }
+  .link-block-12 {
+    margin: auto;
+    line-height: auto;
   }
 }
 
