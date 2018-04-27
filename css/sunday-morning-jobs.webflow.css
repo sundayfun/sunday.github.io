@@ -1475,6 +1475,7 @@
 }
 
 .text-block-61 {
+  display: block;
   width: 534px;
   margin-top: 20px;
   margin-right: auto;
@@ -1604,7 +1605,7 @@
 }
 
 .div-block-82 {
-  height: 90px;
+  height: 70px;
 }
 
 .link-block-9 {
@@ -1825,6 +1826,7 @@
   border-color: hsla(0, 0%, 90%, .5);
   border-radius: 8px;
   background-color: #fff;
+  text-align: left;
 }
 
 .text-block-75 {
@@ -1875,7 +1877,7 @@
 }
 
 .div-block-93 {
-  height: 60px;
+  height: 120px;
 }
 
 .div-block-94 {
@@ -1975,6 +1977,166 @@
   margin-top: 10px;
   margin-right: 30px;
   margin-left: 30px;
+}
+
+.header-section {
+  padding-top: 76px;
+  padding-bottom: 76px;
+  text-align: center;
+}
+
+.blog-home-link {
+  -webkit-transition: opacity 200ms ease;
+  transition: opacity 200ms ease;
+  font-family: Montserrat, sans-serif;
+  color: #303030;
+  text-decoration: none;
+}
+
+.blog-home-link:hover {
+  opacity: 0.82;
+}
+
+.blog-name {
+  display: inline-block;
+  margin-bottom: 0px;
+  font-size: 53px;
+  line-height: 57px;
+  letter-spacing: 1px;
+}
+
+.blog-name:hover {
+  color: #6d6d6d;
+}
+
+.navigation-bar {
+  margin-top: 45px;
+  text-align: center;
+}
+
+.nav-link {
+  display: inline-block;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding: 7px 0px;
+  -webkit-transition: color 200ms ease;
+  transition: color 200ms ease;
+  font-family: Montserrat, sans-serif;
+  color: #b9b9b9;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.nav-link:hover {
+  color: #303030;
+}
+
+.nav-link.w--current {
+  color: #303030;
+}
+
+.text-span-3 {
+  color: #3030dd;
+}
+
+.text-span-2 {
+  color: #333;
+}
+
+.div-block-104 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: auto;
+  height: 90px;
+  margin-right: auto;
+  margin-left: auto;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+}
+
+.link-8 {
+  color: #3030dd;
+  text-decoration: none;
+}
+
+.text-span {
+  color: #c00;
+}
+
+.section-2 {
+  position: relative;
+  padding-right: 2.5%;
+  padding-left: 2.5%;
+  background-color: #fff;
+  line-height: 24px;
+}
+
+.paragraph-5 {
+  line-height: 24px;
+}
+
+.about-content {
+  display: block;
+  max-width: 550px;
+  margin-right: auto;
+  margin-bottom: 51px;
+  margin-left: auto;
+}
+
+.div-block-105 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 220px;
+  height: 50px;
+  margin-right: auto;
+  margin-bottom: 70px;
+  margin-left: auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 8px;
+  background-color: #000;
+}
+
+.text-block-104 {
+  margin-left: 30px;
+  color: #fff;
+}
+
+.icon {
+  margin-right: 20px;
+  margin-left: auto;
+  color: #fff;
+}
+
+.image-10 {
+  margin-top: 20px;
+  margin-bottom: auto;
 }
 
 html.w-mod-js *[data-ix="header-load"] {
@@ -2252,6 +2414,23 @@ html.w-mod-js *[data-ix="open-position-page"] {
   .jobsemail {
     height: 70px;
   }
+  .div-block-104 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: 80px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, .03);
+  }
 }
 
 @media (max-width: 767px) {
@@ -2301,6 +2480,16 @@ html.w-mod-js *[data-ix="open-position-page"] {
   }
   .jobsemail {
     width: 300px;
+  }
+  .header-section {
+    padding-top: 38px;
+    padding-bottom: 38px;
+  }
+  .navigation-bar {
+    margin-top: 21px;
+  }
+  .div-block-104 {
+    background-color: transparent;
   }
 }
 
@@ -3587,6 +3776,7 @@ html.w-mod-js *[data-ix="open-position-page"] {
   .div-block-80 {
     width: 200px;
     height: 24px;
+    margin-top: 20px;
     background-size: cover;
   }
   .div-block-81 {
@@ -4029,5 +4219,39 @@ html.w-mod-js *[data-ix="open-position-page"] {
   .div-block-103 {
     width: 100%;
     height: 19px;
+  }
+  .blog-name {
+    font-size: 32px;
+    font-weight: 300;
+  }
+  .div-block-104 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: 80px;
+    margin-top: 0px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: transparent;
+  }
+  .about-content {
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  .image-10 {
+    width: 280px;
+    margin-bottom: auto;
   }
 }
