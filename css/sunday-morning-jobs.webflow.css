@@ -2140,6 +2140,7 @@
 }
 
 .link-block-12 {
+  margin-bottom: 70px;
   line-height: auto;
 }
 
@@ -4257,13 +4258,23 @@ html.w-mod-js *[data-ix="open-position-page"] {
   .div-block-105 {
     margin-bottom: 40px;
   }
+  .text-block-104 {
+    text-decoration: none;
+  }
+  .icon {
+    text-decoration: none;
+  }
   .image-10 {
     width: 280px;
     margin-bottom: auto;
   }
   .link-block-12 {
-    margin: auto;
+    margin: auto auto 40px;
     line-height: auto;
+  }
+  .text-span-4 {
+    color: #fff;
+    text-decoration: none;
   }
 }
 
