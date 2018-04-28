@@ -2144,6 +2144,10 @@
   line-height: auto;
 }
 
+.paragraph-6 {
+  margin-top: 50px;
+}
+
 html.w-mod-js *[data-ix="header-load"] {
   display: block;
   opacity: 0;
