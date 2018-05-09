@@ -2144,6 +2144,47 @@
   line-height: auto;
 }
 
+.paragraph-6 {
+  color: #333;
+  text-decoration: none;
+}
+
+.link-9 {
+  color: #3030dd;
+  text-decoration: none;
+}
+
+.link-10 {
+  color: #3030dd;
+}
+
+.link-11 {
+  color: #3030dd;
+  text-decoration: none;
+}
+
+.link-12 {
+  color: #3030dd;
+  text-decoration: none;
+}
+
+.link-13 {
+  text-decoration: none;
+}
+
+.llink8 {
+  color: #3030dd;
+  text-decoration: none;
+}
+
+.div-block-106 {
+  height: 100px;
+}
+
+.heading-6 {
+  font-weight: 700;
+}
+
 html.w-mod-js *[data-ix="header-load"] {
   display: block;
   opacity: 0;
