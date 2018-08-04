@@ -1584,6 +1584,15 @@
   background-size: cover;
 }
 
+.div-block-999 {
+  width: 360px;
+  height: 360px;
+  margin-top: 20px;
+  background-image: url('../images/pop-icon.png');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
 .div-block-80 {
   width: 250px;
   height: 30px;
